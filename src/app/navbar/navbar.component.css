@@ -1,0 +1,20 @@
+#logo img {
+    height: 6em;
+}
+
+#logo, #login{
+    width: 50%;
+}
+
+#logo{
+}
+
+#login mat-form-field{
+    background: white;
+}
+
+.dropdown{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
