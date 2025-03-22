@@ -34,4 +34,4 @@ jobs:
       with:
         branch: gh-pages   # Target the gh-pages branch
         folder: dist/netflix-clone   # The folder to deploy (usually dist/<app-name>)
-        token: ${{ secrets.GITHUB_TOKEN }}  # Use the GITHUB_TOKEN secret for authentication
+        token: ${{ secrets.GIT_DEPLOY_TOKEN }}  # Use the GITHUB_TOKEN secret for authentication
